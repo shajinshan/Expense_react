@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@100..900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mate+SC&display=swap');
+body{
+
+
+    background-image: url("https://assets.gqindia.com/photos/608c135f6e6a489a62cd254d/1:1/w_1080,h_1080,c_limit/Apps%20for%20finance%20management.jpg");
+}
+
+.container{
+
+    position: relative;
+    top: 10px;
+    margin: auto;
+    height: 900px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 22px;
+    backdrop-filter: blur(10px);
+    overflow-y: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.container h1{
+  margin-left: 280px;
+    position: relative;
+    top: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,  
+        -1px 1px 0 black,  
+        1px 1px 0 black; 
+      
+      
+}
+
+.expense_box{
+    margin: auto;
+    height: 200px;
+    width: 600px;
+    background-color: rgba(132, 6, 6, 0.594);
+    border-radius: 22px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.expense_box h3{
+    color: #d1cfcf;
+position: relative;
+margin-left: 300px;
+right: 200px;
+top: 20px;
+font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+
+}
+.description_box{
+    position: relative;
+    top: 10px;
+    right: 70px;
+    height: 90px;
+    width: 400px;
+    background-color: rgb(181, 203, 196);
+    margin: auto;
+    border-radius: 10px;
+}
+.description_box h5{
+    position: relative;
+    top: 10px;
+    margin-left: 30px;
+}
+.expense_box h4{
+    position: relative;
+    top: 9px;
+ margin-left: 50px;
+ margin-bottom: 10px;
+    color: hsl(0, 0%, 83%);
+    font-size: 12px;
+}
+.expense_box h6{
+    position: relative;
+    bottom: 40px;
+    color: #ede6e6;
+    left: 220px;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}
+.add_icon {
+    height: 30px;
+    position: sticky;
+    top: 60px;  
+    left: 850px;
+    bottom: 10px;
+    right: 20px;
+    margin-left: 900px;
+    margin-top: -10px;
+    z-index: 1000; 
+  padding: 20px 30px;
+    
+}
+
+ 
+  
+  
+.add_icon button{
+    background-color: rgba(255, 222, 173, 0);
+    border: none;
+}
+.add_icon img{
+    height: 30px;
+    color: #dddddd;
+    
+}
+.edit_icon{
+    
+    height: 20px;
+ 
+    margin-left:300px;
+ 
+}
+.edit_icon Link{
+    background-color: rgba(255, 222, 173, 0);
+    border: none;
+}
+.edit_icon img{
+    height: 30px;
+    color: #dddddd;
+    height: 20px;
+    position: relative;
+    bottom: 220px;
+    margin-left: 200px;
+}
+
+.delete_icon img{
+    height: 30px;
+    color: #dddddd;
+    height: 20px;
+    position: relative;
+    bottom: 170px;
+    margin-left: 346px;
+}
+.delete_icon button{
+    background-color: rgba(255, 222, 173, 0);
+    border: none;
+}
+.empty{
+margin-left: 800px;
+margin-top: 300px;
+color: #000000;
+}
+
